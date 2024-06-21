@@ -13,7 +13,7 @@ SELECT uuid_generate_v7(now())
 ```
 Parameter `now()` taken as timestamp from your current time zone.
 
-otherwise you can declare the `now()` parameter from the initial function when generate the uuid
+otherwise you can declare the `now()` parameter from the initial function when generate the uuid.
 
 ```sql
 CREATE OR REPLACE FUNCTION generate_uuid_v7(now())
